@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sprava_style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        </style>
+</head>
+<body>
+    <nav class="side_nav">
+        <p class="side_nav_main_text">Skolskejedalne.sk</p>
+      <label class="spravovana" for="select_spravovana">Aktuálne spravovaná jedáleň</label>
+      <select class="select_spravovana">
+        <option>ŠJ Košice Rastislavova</option>
+      </select>
+      <div class="div1">
+      <img src="icon_settings.svg" class="settings1">
+      <p class="sprava">Domov</p>
+      </div>
+      <div class="div2">
+      <img src="apps_icon.svg" class="apps">
+      <p class="aplikacie">Aplikácie</p>
+      <img src="dropdown_icon.svg" class="dropdown1">
+      </div>
+      <div class="div3">
+            <p>Jedálniček</p>
+            <p>Tvorba Juxty</p>
+            <p>Správa dochádzky</p>
+            <p>Tvorba výkazov</p>
+      </div>
+      <div class="div4">
+        <img src="icon_settings.svg" class="settings2">
+        <p>Nastavenia</p>
+        <img src="dropdown_icon.svg" class="dropdown2">
+      </div>
+      <div class="div5">
+            <p>Stravníci</p>
+            <p>Jedáleň</p>
+      </div>
+    </nav>
+    <nav class="nav_bar">
+        <img src="menu_icon.svg">
+        <p class="nav1">ŠJ Košice Rastislavova</p>
+        <p class="nav2">|</p>
+        <p class="nav3">Školské jedálne</p>
+        <button>Odhlásiť sa</button>
+    </nav>
+    <nav class="main">
+        <p class="header">Správa dochádzky</p>
+        <p class="desc">Dochádzka stravníkov v jedálni ŠJ Košice Rastislavova. Tu môžeš upravovať dochádzku stravníkov pre jednotlivé dni a jedlá</p>
+        <div>
+            <label class="meno" for="select_meno">Vyhľadávanie podľa mena</label>
+            <select class="select_meno">
+                <option>Meno</option>
+              </select>
+              <label class="stravnik "for="select_stravnik">Typ stravníka</label>
+              <select class="select_stravnik">
+                <option>Žiak</option>
+              </select>
+              <button class="button_pridat">Pridať stravníka</button>
+        </div>
+        <table class="table">
+            <tr>
+                <th>Meno</th>
+                <th>Typ</th>
+                <th>Koeficient</th>
+                <th>Hmotná núdza</th>
+            </tr>
+            <tr>
+                <td class="name">Diana Bocáková</td>
+                <td class="type">Žiak</td>
+                <td class="ratio">1.45</td>
+                <td class="need"><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td class="name">Mrkva Mrkvová</td>
+                <td class="type">Dospelý</td>
+                <td class="ratio">2.0</td>
+                <td class="need"><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td class="name">Hlin Hlinová</td>
+                <td class="type">Zamestnanec</td>
+                <td class="ratio">1.75</td>
+                <td class="need"><input type="checkbox"></td>
+            </tr>
+        </table>
+    </nav> 
+</body>  
+</html>
