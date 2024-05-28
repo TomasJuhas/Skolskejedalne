@@ -12,13 +12,13 @@
 <body>
     <nav class="side_nav">
         <p class="side_nav_main_text">Skolskejedalne.sk</p>
-      <label class="spravovana" for="select">Aktuálne spravovaná jedáleň</label>
+      <label class="spravovana" for="select_spravovana">Aktuálne spravovaná jedáleň</label>
       <select class="select_spravovana">
         <option>ŠJ Košice Rastislavova</option>
       </select>
       <div class="div1">
       <img src="icon_settings.svg" class="settings1">
-      <p class="sprava">Správa Jedálne</p>
+      <p class="sprava">Domov</p>
       </div>
       <div class="div2">
       <img src="apps_icon.svg" class="apps">
@@ -42,59 +42,79 @@
       </div>
     </nav>
     <nav class="nav_bar">
-        <img src="menu_icon.svg">
-        <p class="nav1">ŠJ Košice Rastislavova</p>
-        <p class="nav2">|</p>
-        <p class="nav3">Školské jedálne</p>
-        <button>Odhlásiť sa</button>
-    </nav>
-    <nav class="main1">
-        <div class="card1">
-            <img src="cooking.svg">
-            <p class="header1">Jedálniček</p>
-            <p class="desc1">V aplikácii Jedálniček si môžeš vytvárať týždenné menu pre jedáleň v školskom zariadení</p>
-            <button type="button">Spustiť jedálniček</button>
+        <div class="nav_gap">
+            <img src="menu_icon.svg">
+            <div class="nav_wrap">
+                <p class="nav1">ŠJ Košice Rastislavova</p>
+                <p class="nav2">|</p>
+                <p class="nav3">Školské jedálne</p>
+            </div>
         </div>
+            <div class="button_div">
+                <button type="button">Odhlásiť sa</button>
+            </div>
     </nav>
-    <nav class="main2">
-        <div class="card2">
-            <img src="printing.svg">
-            <p class="header2">Juxta</p>
-            <p class="desc2">V aplikácii Juxta môžeš vytvárať platobné príkazy pre jednotlivých stravníkov</p>
-            <button type="button">Spustiť Juxtu</button>
-        </div>
-    </nav>
-    <nav class="main3">
-        <div class="card3">
-            <img src="destinations.svg">
-            <p class="header3">Správa dochádzky</p>
-            <p class="desc3">V aplikácii správa dochádzky môžeš zaznamenávať dochádzku na jednotlivých jedlách</p>
-            <button type="button">Spustiť Správu docházky</button>
-        </div>
-    </nav>
-    <nav class="main4">
-        <div class="card4">
-            <img src="document.svg">
-            <p class="header4">Tvorba výkazov</p>
-            <p class="desc4">V aplikácii tvorba výkazov môžeš generovať mesačné výkazy pre zvolenú jedáleň</p>
-            <button type="button">Spustiť tvorbu výkazov</button>
-        </div>
-    </nav>
-    <nav class="main5">
-        <div class="card5">
-            <img src="eating.svg">
-            <p class="header5">Správa stravníkov</p>
-            <p class="desc5">V aplikácii Správa stravníkov môžeš pridávať alebo odoberať stravníkov pre zvolenú jedáleň</p>
-            <button type="button">Spustiť správu stravníkov</button>
-        </div>
-    </nav>
-    <nav class="main6">
-        <div class="card6">
-            <img src="settings.svg">
-            <p class="header6">Správa jedálne</p>
-            <p class="desc6">V aplikácii správa jedálne môžeš pridávať typy stravníkov a koeficienty pre stravníkov</p>
-            <button type="button">Spustiť správu jedálne</button>
-        </div>
+    <nav class="main">
+        <nav class="main1">
+            <div class="card1">
+                <img src="cooking.svg">
+                <p class="header1">Jedálniček</p>
+                <p class="desc1">V aplikácii Jedálniček si môžeš vytvárať týždenné menu pre jedáleň v školskom zariadení</p>
+                <div class="button_div1">
+                    <button type="button">Spustiť jedálniček</button>
+                </div>
+            </div>
+        </nav>
+        <nav class="main2">
+            <div class="card2">
+                <img src="printing.svg">
+                <p class="header2">Juxta</p>
+                <p class="desc2">V aplikácii Juxta môžeš vytvárať platobné príkazy pre jednotlivých stravníkov</p>
+                <div class="button_div2">
+                    <button type="button">Spustiť Juxtu</button>
+                </div>
+            </div>
+        </nav>
+        <nav class="main3">
+            <div class="card3">
+                <img src="destinations.svg">
+                <p class="header3">Správa dochádzky</p>
+                <p class="desc3">V aplikácii správa dochádzky môžeš zaznamenávať dochádzku na jednotlivých jedlách</p>
+                <div class="button_div3">
+                    <button type="button">Spustiť Správu docházky</button>
+                </div>
+            </div>
+        </nav>
+        <nav class="main4">
+            <div class="card4">
+                <img src="document.svg">
+                <p class="header4">Tvorba výkazov</p>
+                <p class="desc4">V aplikácii tvorba výkazov môžeš generovať mesačné výkazy pre zvolenú jedáleň</p>
+                <div class="button_div4">
+                    <button type="button">Spustiť tvorbu výkazov</button>
+                </div>
+            </div>
+        </nav>
+        <nav class="main5">
+            <div class="card5">
+                <img src="eating.svg">
+                <p class="header5">Správa stravníkov</p>
+                <p class="desc5">V aplikácii Správa stravníkov môžeš pridávať alebo odoberať stravníkov pre zvolenú jedáleň</p>
+                <div class="button_div5">
+                    <button type="button">Spustiť správu stravníkov</button>
+                </div>
+            </div>
+        </nav>
+        <nav class="main6">
+            <div class="card6">
+                <img src="settings.svg">
+                <p class="header6">Správa jedálne</p>
+                <p class="desc6">V aplikácii správa jedálne môžeš pridávať typy stravníkov a koeficienty pre stravníkov</p>
+                <div class="button_div6">
+                    <button type="button">Spustiť správu jedálne</button>
+                </div>
+            </div>
+        </nav>
     </nav>
 </body>
 </html>
