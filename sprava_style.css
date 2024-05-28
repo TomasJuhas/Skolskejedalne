@@ -192,7 +192,7 @@ body{
 }
 
 .main{
-    width:900px;
+    width:(100%-350px);
     padding-left:350px;
     padding-top:35px;
 }
@@ -251,7 +251,7 @@ body{
 
 .button_pridat{
     position: absolute;
-    margin-left:58.5em;
+    margin-left:48.5vw;
     border: 0px;
     background-color:#00A3FF;
     border-radius:4px;
