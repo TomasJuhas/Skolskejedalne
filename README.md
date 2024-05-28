@@ -1,6 +1,6 @@
 # Skolskejedalne
 
-- ikonku pri dropdowne som skusal urobit v navbar.html ale neslo na to kliknut
+- ikonku pri dropdowne som skusil urobit v navbar.html ale nejde na to kliknut
 
 
 dochadzka.html(Sprava dochadzky) :
