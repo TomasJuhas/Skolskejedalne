@@ -166,7 +166,7 @@ body{
 .nav2{
     font-weight: 300;
     text-align: center;
-    font-size:35px;
+    font-size:32px;
     line-height: 29.05px;
 }
 
@@ -217,7 +217,7 @@ body{
     padding:16px;
     border-radius: 4px; 
     box-shadow: 0px 4px 4px 0px #00000040;
-    width: 64em;
+    width: 71vw;
     height: 80vh;
 }
 
