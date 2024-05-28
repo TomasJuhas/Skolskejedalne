@@ -153,7 +153,8 @@ body{
     max-width: 40px;
     max-height: auto;
     margin-right: 40px;
-    margin-left:3em
+    margin-left:3em;
+    cursor: pointer;
 }
 
 .nav1{
@@ -189,6 +190,7 @@ body{
     color:white;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .main{

@@ -153,7 +153,8 @@ body{
     max-width: 40px;
     max-height: auto;
     margin-right: 40px;
-    margin-left:3em
+    margin-left:3em;
+    cursor: pointer;
 }
 
 .nav1{
@@ -189,6 +190,7 @@ body{
     color:white;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .main{
@@ -223,7 +225,7 @@ body{
 }
 
 .meno{
-    position:absolute;
+    position:fixed;
     font-size: 7px;
     color: #00000066;
     margin-top:6px;
@@ -238,20 +240,17 @@ body{
     color: #000000B2;
     font-size:12px;
     padding-top:5px;
-    margin-left:15px;
 }
 
 .stravnik{
-    position: absolute;
+    position: fixed;
     font-size: 7px;
     color: #00000066;
     margin-top:6px;
-    margin-left:21px;
+    margin-left:135px;
 }
 
 .button_pridat{
-    position: absolute;
-    margin-left:48.5vw;
     border: 0px;
     background-color:#00A3FF;
     border-radius:4px;
@@ -263,20 +262,24 @@ body{
 }
 
 td > input{
-    border: 1px #D9D9D9;
     border-radius: 0px;
     width: 16px;
     height: 16px;
+    border: 1px solid #D9D9D9
+    
 }
 
 table,th,td{
     border: 1px solid #5B5B5B;
     border-collapse: collapse;
     margin-top:20px;
-    width:74vw; 
     height:5vh;
     background-color: white;
     border-color: #0000001A;
+}
+
+.table{
+    width: 97.5%;
 }
 
 td{
@@ -286,5 +289,21 @@ td{
 }
 
 .need{
-    text-align: center;
+    text-align: center; 
+}
+
+.main_div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+.button_div2{
+    position: fixed;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    width:74%
 }
