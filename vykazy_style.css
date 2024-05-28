@@ -215,9 +215,9 @@ body{
 .main2{
     background-color: #D9D9D980;
     padding:16px;
-    border-radius: 4px;
+    border-radius: 4px; 
     box-shadow: 0px 4px 4px 0px #00000040;
-    width: 71vw;
+    width: 64em;
     height: 80vh;
 }
 
