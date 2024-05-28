@@ -27,6 +27,7 @@ body{
 }
 
 .select_spravovana{
+    appearance: none;
     border: 1px solid #0000003B;
     padding: 15px 5px 10px 10px;
     border-radius: 4px;
@@ -37,8 +38,14 @@ body{
     position:fixed;
     color: #00000066;
     font-size: 10px;
-    padding-left: 15px;
+    padding-left: 11px;
     margin-top: 2px;
+}
+
+.dropdown_icon{
+    position:fixed;
+    padding-top:10px;
+    padding-left:250px;
 }
 
 .div1{
