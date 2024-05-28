@@ -57,7 +57,7 @@
     <nav class="main">
         <p class="header">Správa dochádzky</p>
         <p class="desc">Dochádzka stravníkov v jedálni ŠJ Košice Rastislavova. Tu môžeš upravovať dochádzku stravníkov pre jednotlivé dni a jedlá</p>
-        <div>
+        <div class="main_options">
             <label class="meno" for="select_meno">Vyhľadávanie podľa mena</label>
             <select class="select_meno">
                 <option>Meno</option>
@@ -66,8 +66,10 @@
               <select class="select_datum">
                 <option>16.11.2022</option>
               </select>
-              <button class="button_zrusit">Zrušiť zmeny</button>
-              <button class="button_ulozit">Uložiť zmeny</button>
+              <div class="main_buttons">
+                <button class="button_ulozit">Uložiť zmeny</button>
+                <button class="button_zrusit">Zrušiť zmeny</button>
+              </div>
         </div>
         <table class="table">
             <tr class="0">
@@ -77,18 +79,36 @@
             </tr>
             <tr class="A">
                 <td class="name">Diana Bocáková</td>
-                <td><button class="desiata" type="button">Desiata</button><button type="button">Obed</button><button type="button">Olovrant</button></td>
-                <td><button class="dochadzka" type="button">Zobraziť mesačnú dochádzku</button></td>
+                <td>
+                    <button class="desiata" type="button">Desiata</button>
+                    <button type="button">Obed</button>
+                    <button type="button">Olovrant</button>
+                </td>
+                <td>
+                    <button class="dochadzka" type="button">Zobraziť mesačnú dochádzku</button>
+                </td>
             </tr>
             <tr class="B">
                 <td class="name">Mrkva Mrkvová</td>
-                <td><button class="desiata" type="button">Desiata</button><button type="button">Obed</button><button type="button">Olovrant</button></td>
-                <td><button class="dochadzka" type="button">Zobraziť mesačnú dochádzku</button></td>
+                <td>
+                    <button class="desiata" type="button">Desiata</button>
+                    <button type="button">Obed</button>
+                    <button type="button">Olovrant</button>
+                </td>
+                <td>
+                    <button class="dochadzka" type="button">Zobraziť mesačnú dochádzku</button>
+                </td>
             </tr>
             <tr class="C">
                 <td class="name">Hlin Hlinová</td>
-                <td><button class="desiata" type="button">Desiata</button><button type="button">Obed</button><button type="button">Olovrant</button></td>
-                <td><button class="dochadzka" type="button">Zobraziť mesačnú dochádzku</button></td>
+                <td>
+                    <button class="desiata" type="button">Desiata</button>
+                    <button type="button">Obed</button>
+                    <button type="button">Olovrant</button>
+                </td>
+                <td>
+                    <button class="dochadzka" type="button">Zobraziť mesačnú dochádzku</button>
+                </td>
             </tr>
         </table>
     </nav>

@@ -213,6 +213,7 @@ body{
 }
 
 .select_meno{
+    display: flex;
     border: 1px solid #0000003B;
     border-radius: 4px;
     width: 120px;
@@ -227,10 +228,11 @@ body{
     font-size: 7px;
     color: #00000066;
     margin-top:6px;
-    margin-left:5px;
+    margin-left:0.6em;
 }
 
 .select_datum{
+    display: flex;
     border: 1px solid #0000003B;
     border-radius: 4px;
     width: 120px;
@@ -246,12 +248,12 @@ body{
     font-size: 7px;
     color: #00000066;
     margin-top:6px;
-    margin-left:21px;
+    margin-left:19em;
 }
 
 .button_zrusit{
-    position: fixed;
-    margin-left:600px;
+    display: flex;
+    align-items: flex-end;
     border: 0px;
     background-color: #FA5959;
     border-radius:4px;
@@ -263,8 +265,7 @@ body{
 }
 
 .button_ulozit{
-    position: fixed;
-    margin-left:710px;
+    display: flex;
     border: 0px;
     background-color:#00A3FF;
     border-radius:4px;
@@ -302,10 +303,24 @@ td{
     line-height: 130%;
 }
 
-.desiata{
-    margin-left:70px;
-}
-
 .name{
     justify-content: left;
+}
+
+.desiata{
+    margin-left:6.25em;
+}
+
+.main_options{
+    display: flex;
+    flex-direction: row;
+    width: 74vw;
+}
+
+.main_buttons{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 55em;;
+    align-items: center;
+    gap:16px;
 }
