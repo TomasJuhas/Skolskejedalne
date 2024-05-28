@@ -270,6 +270,7 @@ td > input{
 }
 
 table,th,td{
+    font-family: "Inter", sans-serif;
     border: 1px solid #5B5B5B;
     border-collapse: collapse;
     margin-top:20px;
@@ -282,10 +283,15 @@ table,th,td{
     width: 97.5%;
 }
 
+th{
+    text-align: left;
+    padding-left: 7.5px;
+}
+
 td{
     font-size: 12px;
     width:200px;
-    padding-left:10px;
+    padding-left:7.5px;
 }
 
 .need{

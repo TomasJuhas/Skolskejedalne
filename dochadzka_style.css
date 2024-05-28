@@ -290,15 +290,22 @@ td > button{
     cursor: pointer;
 }
 
+th{
+    text-align: left;
+    padding-left:5px;
+}
+
 table,th,td{
     border: 1px solid #5B5B5B;
     border-collapse: collapse;
     margin-top:20px;
     width:74vw; 
     height:5vh;
+    background-color: white;
 }
 
 td{
+    font-family: "Inter", sans-serif;
     font-size: 12px;
     width:200px;
     font-weight: 400;
@@ -306,7 +313,8 @@ td{
 }
 
 .name{
-    justify-content: left;
+    padding-left:5px;
+    
 }
 
 .desiata{
